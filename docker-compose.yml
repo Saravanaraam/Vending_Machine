@@ -1,19 +1,19 @@
 version: "3"
 services:
   order-beverage-service:
-    image: bhurechetan/chetan-vm:latest
+    image: vybhavi/vending-machine-microservives:latest
     hostname: order-beverage-service
     restart: always
     entrypoint: OrderBeverageService
 
   weather-service:
-    image: bhurechetan/chetan-vm:latest
+    image: vybhavi/vending-machine-microservives:latest
     hostname: weather-service
     restart: always
     entrypoint: WeatherService
 
   beverage-preference-service:
-   image: bhurechetan/chetan-vm:latest
+   image: vybhavi/vending-machine-microservives:latest
    hostname: beverage-preference-service
    restart: always
    entrypoint: BeveragePreferenceService
